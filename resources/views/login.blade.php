@@ -4,6 +4,10 @@
 	<title>Login Page</title>
 </head>
 <body>
+
+<a href="{{route('registration.index')}}">Create new account</a>
+
+
 	<form method="post">
 	<table>
 		<tr>
