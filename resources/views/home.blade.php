@@ -7,8 +7,7 @@
 
  <h1>Welcome home {{ session('user_name') }} </h1>
     
+ <button><a href="{{route('logout')}}">Log out</a></button>
 
-
-	
 </body>
 </html>
